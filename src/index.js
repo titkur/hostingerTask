@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import './App.css';
 import 'react-base-table/styles.css';
-import './ReactBaseTableCustom.css';
+import './Styles/ReactBaseTableCustom.css';
 import 'rc-pagination/assets/index.css';
+import './Styles/RcPaginationCustom.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

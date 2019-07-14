@@ -5,12 +5,12 @@ import { toString } from 'react-base-table/lib/utils';
 /**
  * Cell component for BaseTable
  */
-const TableCellCustom = ({ className, cellData, column, columnIndex, rowData, rowIndex, onClick }) => {
-    const value = React.isValidElement(cellData) ? cellData : toString(cellData);
+const TableCellCustom = ({ className, cellData, onClick }) => {
+  const value = React.isValidElement(cellData) ? cellData : toString(cellData);
 
-    return (
-        <div className={className} onClick={() => onClick(value)}>{value}</div>   
-    )
+  return (
+    <div className={className} onClick={() => onClick(value)}>{value}</div>
+  )
 };
 
 TableCellCustom.propTypes = {

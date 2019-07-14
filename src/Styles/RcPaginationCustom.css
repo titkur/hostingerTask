@@ -1,0 +1,17 @@
+.rc-pagination-item-active {
+    background-color: black;
+    border-color: black;
+}
+
+.rc-pagination-item:hover {
+    border-color: black;
+}
+
+.rc-pagination-item:hover a {
+    color: black;
+}
+
+.rc-pagination-item-active:hover a {
+    color: white;
+}
+  
